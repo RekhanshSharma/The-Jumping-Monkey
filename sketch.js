@@ -48,7 +48,8 @@ function draw() {
     gameState = "start";
   }
   if(gameState === "start"){
-     monkey.velocityX = 1;
+    monkey.velocityX = 1;
+    score = 0;
   }
   if(gameState === "start" && monkey.x === 100){
     monkey.velocityX = 0;
